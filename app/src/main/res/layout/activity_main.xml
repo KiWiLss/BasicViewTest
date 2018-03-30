@@ -18,7 +18,11 @@
             android:text="spinner"
             android:onClick="spinnerListener"/>
 
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:onClick="textListener"/>
     </LinearLayout>
 
 </ScrollView>

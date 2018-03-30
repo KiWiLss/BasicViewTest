@@ -1,8 +1,12 @@
 package com.kiwilss.basicviewtest;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.kiwilss.basicviewtest.basic.spinner.SpinnerTestActivity;
+import com.kiwilss.basicviewtest.text.TextTestActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void spinnerListener(View view) {
+        startActivity(new Intent(this, SpinnerTestActivity.class));
+    }
 
+    public void textListener(View view) {
+        startActivity(new Intent(this, TextTestActivity.class));
     }
 }

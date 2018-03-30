@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="pinner">
+       <item>Android</item>
+       <item>Ios</item>
+       <item>java</item>
+       <item>python</item>
+   </string-array>
+</resources>
