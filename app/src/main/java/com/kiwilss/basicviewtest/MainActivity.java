@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kiwilss.basicviewtest.basic.edittext.EdittextKeyboard;
+import com.kiwilss.basicviewtest.basic.edittext.EtKeyboardFgActivity;
 import com.kiwilss.basicviewtest.basic.spinner.SpinnerTestActivity;
 import com.kiwilss.basicviewtest.text.TextTestActivity;
 
@@ -22,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void textListener(View view) {
         startActivity(new Intent(this, TextTestActivity.class));
+    }
+
+    public void edittextkeyborad(View view) {
+        startActivity(new Intent(this, EdittextKeyboard.class));
+    }
+
+    public void edittextkeyboradFg(View view) {
+        startActivity(new Intent(this, EtKeyboardFgActivity.class));
     }
 }
