@@ -34,6 +34,12 @@
             android:text="edittextkeyboradFg"
             android:onClick="edittextkeyboradFg"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码相关"
+            android:onClick="qrcodeListener"/>
+
     </LinearLayout>
 
 </ScrollView>

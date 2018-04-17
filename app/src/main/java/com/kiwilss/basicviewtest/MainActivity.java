@@ -8,6 +8,7 @@ import android.view.View;
 import com.kiwilss.basicviewtest.basic.edittext.EdittextKeyboard;
 import com.kiwilss.basicviewtest.basic.edittext.EtKeyboardFgActivity;
 import com.kiwilss.basicviewtest.basic.spinner.SpinnerTestActivity;
+import com.kiwilss.basicviewtest.qrcode.QrcodeActivity;
 import com.kiwilss.basicviewtest.text.TextTestActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void edittextkeyboradFg(View view) {
         startActivity(new Intent(this, EtKeyboardFgActivity.class));
+    }
+
+    public void qrcodeListener(View view) {
+        startActivity(new Intent(this, QrcodeActivity.class));
     }
 }
