@@ -35,6 +35,7 @@
 
         <activity android:name=".qrcode.QrcodeActivity"/>
         <activity android:name=".validate.ValidateTestActivity"/>
+        <activity android:name=".text.TextSimpleActivity"/>
     </application>
 
 </manifest>
