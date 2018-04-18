@@ -27,8 +27,25 @@
             android:focusableInTouchMode="true"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="苹果公司今天在纽约股市收盘后发布了2016财年第三财季的财报苹果公司今天在纽约股市收盘后发布了2016财年第三财季的财报苹果公司今天在纽约股市收盘后发布了2016财年第三财季的财报"
+            android:lineSpacingMultiplier="2"/>
+
+        <TextView
+            android:id="@+id/tv_text_simple_fore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="改变部分文字的前景色"
+            android:layout_marginTop="20dp"/>
 
 
-
+        <TextView
+            android:id="@+id/tv_text_simple_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="改变部分文字的大小"
+            android:layout_marginTop="20dp"/>
     </LinearLayout>
 </ScrollView>
