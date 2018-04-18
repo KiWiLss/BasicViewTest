@@ -10,6 +10,7 @@ import com.kiwilss.basicviewtest.basic.edittext.EtKeyboardFgActivity;
 import com.kiwilss.basicviewtest.basic.spinner.SpinnerTestActivity;
 import com.kiwilss.basicviewtest.qrcode.QrcodeActivity;
 import com.kiwilss.basicviewtest.text.TextTestActivity;
+import com.kiwilss.basicviewtest.validate.ValidateTestActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void qrcodeListener(View view) {
         startActivity(new Intent(this, QrcodeActivity.class));
+    }
+
+    public void validateListener(View view) {
+        startActivity(new Intent(this, ValidateTestActivity.class));
     }
 }

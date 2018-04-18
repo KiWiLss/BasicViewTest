@@ -34,6 +34,7 @@
             android:windowSoftInputMode="adjustResize"/>
 
         <activity android:name=".qrcode.QrcodeActivity"/>
+        <activity android:name=".validate.ValidateTestActivity"/>
     </application>
 
 </manifest>
